@@ -5,13 +5,14 @@
 #ifndef PROJECT_MYCLASS_HPP
 #define PROJECT_MYCLASS_HPP
 
-#include "oatpp/core/Types.hpp"
+#include "oatpp/Types.hpp"
+#include "oatpp/base/Log.hpp"
 
 class MyClass {
 public:
 
   static void doSomething() {
-    OATPP_LOGD("MyClass", "doSomething called");
+    OATPP_LOGd("MyClass", "doSomething called");
   }
 
 };
